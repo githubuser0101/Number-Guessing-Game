@@ -1,0 +1,47 @@
+body {
+    background-color: powderblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+#input {
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 15px;
+    border-style: none;
+}
+
+::placeholder {
+    font-family: poppins, serif;
+}
+
+#submit {
+    padding: 8px 20px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 15px;
+    background-color: white;
+    font-family: poppins, serif;
+    cursor: pointer;
+    margin-left: 28%;
+    margin-top: 10px;
+}
+
+#previousGuesses {
+    background-color: white;
+}
+
+#newGame {
+    cursor: pointer;
+}
